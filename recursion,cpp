@@ -1,0 +1,42 @@
+#include <iostream> 
+
+using namespace std;
+
+
+
+printnum(int x){
+
+  if(x<=0){
+
+      return 0;
+  }
+   cout<<x;
+     x=x-1;
+
+    
+   printnum(x);
+
+}
+
+int main (){
+
+
+
+
+int x=5;
+
+  cin>>x;
+
+  
+ printnum(x);
+
+   
+
+
+
+
+
+
+
+    return 0;
+}

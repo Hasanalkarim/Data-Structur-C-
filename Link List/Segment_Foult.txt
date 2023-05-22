@@ -1,0 +1,28 @@
+g++ -g fileName.cpp
+
+./a.out
+
+gdb a.out core
+
+g++ -g link_list.cpp
+
+
+
+
+
+
+
+
+
+
+
+
+  backup for circular_linked_
+
+
+g++ -g circular_linked_list.cpp
+
+./a.out
+
+gdb a.out core
+
